@@ -11,7 +11,7 @@
   font-size: 20px;
 }
 
-/* Overflow */
+/* Overflow: oculto el excedente de una caja*/
 
 .overflow-box {
   width: 150px;
@@ -23,11 +23,13 @@
   overflow: hidden;
 }
 
+ /* scroll Barras de navegacion*/
+
 .scroll {
   overflow: scroll;
   /* overflow-x: scroll; */
 }
-
+/*overflowA uto*/
 .auto {
   overflow: auto;
 }

@@ -34,45 +34,43 @@
 
     <span class="text-span">👉 visible</span>
 
-   
     <div class="container">
       <div class="overflow-box">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.
+        </p>
       </div>
     </div>
-    
-
 
     <span class="text-span">👉 hidden</span>
 
-   
     <div class="container">
       <div class="overflow-box hidden">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.
+        </p>
       </div>
     </div>
-
-
 
     <span class="text-span">👉 scroll</span>
-    
+
     <div class="container">
       <div class="overflow-box scroll">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.
+        </p>
       </div>
     </div>
 
-
-
     <span class="text-span">👉 auto</span>
-    
 
     <div class="container">
       <div class="overflow-box auto">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, cum.
+        </p>
       </div>
     </div>
-
 
     <hr class="hr" />
 
@@ -83,18 +81,17 @@
     <div class="code">
       padding: 20px 20px 40px 40px; - (Arriba, Derecha, Abajo, Izquierda)
     </div>
-    
 
     <div class="container">
       <p class="padding">Texto</p>
     </div>
 
-
-
     <hr class="hr" />
     <!--------------------------- Border ----------------------------->
-    <h2>Border</h2>
-
+    <h2>Border: espacio entre el contenido y el borde.</h2>
+    <!-- como el teloj: arriba, derecha, abajo, iquierda padding: 10px,2px,10px.2px y si le damos un unico valor le estamos
+asignando a todos los lados-->
+ 
 
     <div class="container">
       <p class="border">Solid</p>
@@ -102,15 +99,11 @@
       <p class="dotted">Dotted</p>
       <p class="double">Double</p>
     </div>
-    
-
-
 
     <hr class="hr" />
     <!--------------------------- Border-radius ----------------------------->
     <h2>Border-radius</h2>
 
-   
     <div class="container">
       <p class="radius">Radius</p>
     </div>
@@ -119,8 +112,6 @@
       <div class="caja"></div>
     </div>
 
-
-
     <hr class="hr" />
     <!--------------------------- Margin ----------------------------->
     <h2>Margin</h2>
@@ -128,14 +119,12 @@
     <div class="code">
       margin: 20px 20px 40px 40px; - (Arriba, Derecha, Abajo, Izquierda)
     </div>
-    
+
     <div class="container">
       <div class="box margin"></div>
       <div class="box margin"></div>
       <div class="box margin"></div>
     </div>
-
-
 
     <hr class="hr" />
     <!--------------------------- CSS LAYOUT----------------------------->
@@ -144,32 +133,27 @@
     <p class="block">Un p es una etiqueta de bloque por ejemplo</p>
     <p class="block">Un p es una etiqueta de bloque por ejemplo</p>
 
-
     <h2 class="mb">En Linea</h2>
 
-
     <a href="#" class="inline">Una etiqueta a es de tipo inline</a>
-    <a href="#" class="inline">Si tenemos otra etiqueta a se va a posicionar al lado</a>
-
-
+    <a href="#" class="inline"
+      >Si tenemos otra etiqueta a se va a posicionar al lado</a
+    >
 
     <hr class="hr mt" />
     <!--------------------------- Position----------------------------->
     <h2>Position</h2>
     <span class="text-span">👉 static (Posición por defecto)</span>
-    
 
     <div class="container">
       <div class="box"></div>
       <div class="box"></div>
     </div>
 
-
-
     <span class="text-span"
       >👉 relative (relativo a su posición por defecto)</span
     >
-   
+
     <div class="container">
       <div class="box"></div>
       <div class="box relative"></div>
@@ -177,14 +161,10 @@
       <div class="box"></div>
     </div>
 
-
-
-
     <span class="text-span"
       >👉 absolute (relativo a la posición del elemento mas cercano con
       position)
     </span>
-   
 
     <div class="absolute-container">
       <div class="box"></div>
@@ -195,47 +175,40 @@
 
     <div class="contenedor-card">
       <div class="card">
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="https://via.placeholder.com/150" alt="" />
         <p>Producto 1</p>
         <span class="descuento">20%</span>
       </div>
 
       <div class="card">
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="https://via.placeholder.com/150" alt="" />
         <p>Producto 1</p>
         <span class="descuento">20%</span>
       </div>
 
       <div class="card">
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="https://via.placeholder.com/150" alt="" />
         <p>Producto 1</p>
         <span class="descuento">20%</span>
       </div>
 
       <div class="card">
-        <img src="https://via.placeholder.com/150" alt="">
+        <img src="https://via.placeholder.com/150" alt="" />
         <p>Producto 1</p>
         <span class="descuento">20%</span>
       </div>
     </div>
 
-
-
-
     <span class="text-span">👉 fixed (relativo al viewport)</span>
-   
 
-      <div class="container">
-        <!-- <div class="box fixed"></div> -->
-        <div class="wapp">W</div>
-      </div>
+    <div class="container">
+      <!-- <div class="box fixed"></div> -->
+      <div class="wapp">W</div>
+    </div>
 
-
-    
     <span class="text-span"
       >👉 sticky (hibrido entre relative y fixed - próximas clases)</span
     >
-
 
     <!-- 
       NO VAMOS A USAR POSITIONS PARA CREAR LOS LAYOUTS DE LAS PAGINAS. PARA ESO VAMOS A USAR FLEX
